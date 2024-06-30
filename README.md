@@ -1,3 +1,12 @@
+# zkAA Recursive Proofs
+
+This project contains scripts and commands to build and test zk-SNARKs using `plonkit`.
+
+The main tasks include generating recursive proofs for zkAA, and verifying them through a Solidity-written smart contract verifier.
+For detailed information, please refer to [zkAA-README.md](./README_ZKAA.md).
+
+---
+
 # plonkit!
 ![ci](https://github.com/fluidex/plonkit/actions/workflows/unit-test.yaml/badge.svg)
 [![codecov](https://codecov.io/gh/fluidex/plonkit/branch/master/graph/badge.svg?token=2GVjdWgRZC)](https://codecov.io/gh/fluidex/plonkit)
