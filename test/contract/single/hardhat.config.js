@@ -1,12 +1,13 @@
-require("@nomiclabs/hardhat-waffle");
+require("@nomicfoundation/hardhat-toolbox");
 require("hardhat-gas-reporter");
+
 module.exports = {
   solidity: {
-    version: "0.8.4",
+    version: "0.8.23",
     settings: {
       optimizer: {
         enabled: true,
-        runs: 1000,
+        runs: 2 ** 32 - 1
       },
     },
   },
